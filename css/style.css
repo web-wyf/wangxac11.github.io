@@ -3038,6 +3038,10 @@ pre .javascript .function {
   width: 200px;
   margin: 0 auto;
 }
+.reward-content .reward-code img {
+  width: 200PX;
+  height: 200px;
+}
 .reward-content .reward-select {
   width: 100%;
 }
