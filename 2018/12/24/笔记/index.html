@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="狗子">
 <meta property="og:description" content="hexo +github 搭建个人博客 node环境配置linux照做系统1.浏览器打开  https://nodejs.org/zh-cn/ ，下载10.14.2版本的压缩包2.默认下载到/root/下载的路径下，解压：1tar -xf node-v10.14.2-linux-x64.tar.xz 3.创建node和npm的软链接1ln -s /root/node-v10.14.2-linux-">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-12-25T01:44:09.693Z">
+<meta property="og:updated_time" content="2018-12-25T08:43:46.954Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="笔记">
 <meta name="twitter:description" content="hexo +github 搭建个人博客 node环境配置linux照做系统1.浏览器打开  https://nodejs.org/zh-cn/ ，下载10.14.2版本的压缩包2.默认下载到/root/下载的路径下，解压：1tar -xf node-v10.14.2-linux-x64.tar.xz 3.创建node和npm的软链接1ln -s /root/node-v10.14.2-linux-">
@@ -147,11 +147,17 @@
 <h2 id="安装项目依赖包"><a href="#安装项目依赖包" class="headerlink" title="安装项目依赖包"></a>安装项目依赖包</h2><p>npm install</p>
 <h2 id="启动项目服务"><a href="#启动项目服务" class="headerlink" title="启动项目服务"></a>启动项目服务</h2><p>hexo s</p>
 <h2 id="预览项目"><a href="#预览项目" class="headerlink" title="预览项目"></a>预览项目</h2><p>在浏览器地址栏输入：<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> 回车访问</p>
+<h2 id="编译代码"><a href="#编译代码" class="headerlink" title="编译代码"></a>编译代码</h2><p>通过这个框架将md的格式转换为html+css+js</p>
+<h2 id="推送"><a href="#推送" class="headerlink" title="推送"></a>推送</h2><p>hexo g</p>
+<ol>
+<li>安装deploy依赖包<br>npm install hexo-deployer-git –save<br>2.上传<br>hexo d<h2 id="清理缓存"><a href="#清理缓存" class="headerlink" title="清理缓存"></a>清理缓存</h2>hexo clean</li>
+</ol>
 <h1 id="回家之后"><a href="#回家之后" class="headerlink" title="回家之后"></a>回家之后</h1><p>1.安装node<br>2.安装hexo脚手架<br>3.安装git<br>  <a href="https://git-scm.com/" target="_blank" rel="noopener">https://git-scm.com/</a><br>4.初始化项目<br>在桌面空白区域鼠标右键选择“git bash here”<br>5.进入blong<br>cd blog<br>6.装作依赖<br>npm install<br>7.启动服务<br>hexo s<br>8.预览<br>9.切换主题<br>  浏览器打开<a href="http://www.hexo.io，选择主题，搜索栏搜索miho" target="_blank" rel="noopener">www.hexo.io，选择主题，搜索栏搜索miho</a><br>  在blog所在路径：<br>  git clone https：//github.comWongminHo/hexo-themes/miho<br>  找到blog的目录_config.yml ,修改 theme：miho<br>10.换图<br>网站图标：/root/桌面/blog/themes/miho/source<br>其他图：/root/桌面/blog/themes/miho/source/imageshexo</p>
+<p> hexo g  编译<br> hexo d  上传<br> done:git<br> 手机地址栏访问 用户名.github.io</p>
 
             <div class="post-copyright">
     <div class="content">
-        <p>最后更新： 2018年12月25日 09:44</p>
+        <p>最后更新： 2018年12月25日 16:43</p>
         <p>原始链接： <a class="post-url" href="/2018/12/24/笔记/" title="笔记">http://yoursite.com/2018/12/24/笔记/</a></p>
         <footer>
             <a href="http://yoursite.com">
@@ -262,7 +268,7 @@
 
     <aside class="post-toc-pos post-toc-top" id="post-toc">
         <nav class="post-toc-wrap">
-            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#node环境配置"><span class="post-toc-text">node环境配置</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#linux照做系统"><span class="post-toc-text">linux照做系统</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#windows环境下："><span class="post-toc-text">windows环境下：</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#项目搭建"><span class="post-toc-text">项目搭建</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#初始化博客项目"><span class="post-toc-text">初始化博客项目</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#进入blog"><span class="post-toc-text">进入blog</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#安装项目依赖包"><span class="post-toc-text">安装项目依赖包</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#启动项目服务"><span class="post-toc-text">启动项目服务</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#预览项目"><span class="post-toc-text">预览项目</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#回家之后"><span class="post-toc-text">回家之后</span></a></li></ol>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#node环境配置"><span class="post-toc-text">node环境配置</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#linux照做系统"><span class="post-toc-text">linux照做系统</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#windows环境下："><span class="post-toc-text">windows环境下：</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#项目搭建"><span class="post-toc-text">项目搭建</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#初始化博客项目"><span class="post-toc-text">初始化博客项目</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#进入blog"><span class="post-toc-text">进入blog</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#安装项目依赖包"><span class="post-toc-text">安装项目依赖包</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#启动项目服务"><span class="post-toc-text">启动项目服务</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#预览项目"><span class="post-toc-text">预览项目</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#编译代码"><span class="post-toc-text">编译代码</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#推送"><span class="post-toc-text">推送</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#清理缓存"><span class="post-toc-text">清理缓存</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#回家之后"><span class="post-toc-text">回家之后</span></a></li></ol>
         </nav>
     </aside>
     
